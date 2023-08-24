@@ -1,0 +1,2139 @@
+// 20230820112708
+// https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9187318&lng=77.49744160000002&collection=80439&offset=0&pageType=COLLECTION&type=rcv2&page_type=DESKTOP_COLLECTION_LISTING
+
+{
+  "statusCode": 0,
+  "data": {
+    "cacheExpiryTime": 320,
+    "pages": 6,
+    "pageIndex": 0,
+    "scrubber": 0,
+    "filters": [
+      {
+        "type": "FilterWidget",
+        "title": "Cuisines",
+        "key": "CUISINES",
+        "configType": "checkbox",
+        "visible": 1,
+        "options": [
+          {
+            "option": "Bakery",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Beverages",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Bihari",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Biryani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Cafe",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Chaat",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Chinese",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Continental",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Desserts",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Fast Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Healthy Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Home Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Ice Cream",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Italian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Jain",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Juices",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Maharashtrian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Mediterranean",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "North Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Oriental",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pastas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Pizzas",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Punjabi",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Rajasthani",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Snacks",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "South Indian",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Street Food",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Sweets",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Tandoor",
+            "selected": 0,
+            "visible": 1
+          },
+          {
+            "option": "Thalis",
+            "selected": 0,
+            "visible": 1
+          }
+        ],
+        "detail": "",
+        "heading": "Cuisines",
+        "applicable": 1,
+        "searchable": 1
+      }
+    ],
+    "sorts": [
+      {
+        "type": "SortWidget",
+        "key": "RELEVANCE",
+        "title": "Relevance",
+        "selected": 1,
+        "visible": 1,
+        "defaultSelection": true
+      },
+      {
+        "type": "SortWidget",
+        "key": "DELIVERY_TIME",
+        "title": "Delivery Time",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "RATING",
+        "title": "Rating",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO",
+        "title": "Cost: Low to High",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      },
+      {
+        "type": "SortWidget",
+        "key": "COST_FOR_TWO_H2L",
+        "title": "Cost: High to Low",
+        "selected": 0,
+        "visible": 1,
+        "defaultSelection": false
+      }
+    ],
+    "configs": {
+      "ribbons": {
+        "PREORDER": {
+          "type": "PREORDER",
+          "text": "Preorder",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 3
+        },
+        "EXCLUSIVE": {
+          "type": "EXCLUSIVE",
+          "text": "Exclusive",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 2
+        },
+        "NEW": {
+          "type": "NEW",
+          "text": "Newly Added",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#d53d4c",
+          "bottomBackgroundColor": "#af2330",
+          "priority": 4
+        },
+        "REPEAT": {
+          "type": "REPEAT",
+          "text": "Repeat",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#D53D4C",
+          "bottomBackgroundColor": "#B02331",
+          "priority": 6
+        },
+        "CLOUD": {
+          "type": "CLOUD",
+          "text": "Daily Menus",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#fa4a5b",
+          "bottomBackgroundColor": "#d12a3b",
+          "priority": 5
+        },
+        "PREMIUM": {
+          "type": "PREMIUM",
+          "text": "Premium",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#8a584b",
+          "bottomBackgroundColor": "#583229",
+          "priority": 7
+        },
+        "PROMOTED": {
+          "type": "PROMOTED",
+          "text": "Promoted",
+          "textColor": "#ffffff",
+          "imageId": "sfefefefeegeg",
+          "topBackgroundColor": "#3a3c41",
+          "bottomBackgroundColor": "#1e2023",
+          "priority": 1
+        }
+      }
+    },
+    "totalSize": 83,
+    "currentOffset": 0,
+    "cards": [
+      {
+        "cardType": "topCollection",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "topCollection",
+          "subtype": "image",
+          "data": {
+            "displayName": "Pure Veg",
+            "id": 80439,
+            "count": 82,
+            "identifier": "",
+            "description": "A vegetarian paradise loaded with options to satisfy your cravings.",
+            "webCollectionHeader": "v1674029954/PC_Creative%20refresh/3D_bau/collections_new/Pure_Veg.png",
+            "webMastHead": "v1674029954/PC_Creative%20refresh/3D_bau/collections_new/Pure_Veg.png",
+            "appMastHead": "v1674029954/PC_Creative%20refresh/3D_bau/collections_new/Pure_Veg.png"
+          }
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "368021",
+            "name": "Royal Indraprastha-Channasandra",
+            "uuid": "7de142af-66b6-4b78-8c0d-94fc07ecb6c1",
+            "city": "1",
+            "area": "Rajarajeshwari Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "fexppojz092u2gfav8ml",
+            "cuisines": [
+              "North Indian",
+              "South Indian",
+              "Chinese",
+              "Beverages"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 19,
+            "minDeliveryTime": 19,
+            "maxDeliveryTime": 19,
+            "slaString": "19 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "royal-indraprastha-rajarajeshwari-nagar-rajarajeshwari-nagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Channasandra",
+            "parentId": 383857,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 2900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 2900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "2900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=7962318~p=1~eid=0000018a-1184-c4d3-1289-eb0a003e0177~srvts=1692511028435~80439",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "2.9 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=368021",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 19,
+              "minDeliveryTime": 19,
+              "maxDeliveryTime": 19,
+              "lastMileTravel": 0,
+              "lastMileDistance": 2.9,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "376345",
+            "name": " Krishnam Udupi Hotel",
+            "uuid": "028f66be-3673-402a-a46d-83db90e0daf5",
+            "city": "1",
+            "area": "Kanakapura Road",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "hhdmpjfcu0r3hlsmsnly",
+            "cuisines": [
+              "South Indian",
+              "North Indian",
+              "Ice Cream",
+              "Chaat",
+              "Beverages"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 50000,
+            "costForTwoString": "₹500 FOR TWO",
+            "deliveryTime": 35,
+            "minDeliveryTime": 35,
+            "maxDeliveryTime": 35,
+            "slaString": "35 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "krishnam-udupi-hotel-kanakapura-road-kanakapura-road",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Konanakunte",
+            "parentId": 121050,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 10000,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 10000,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "10000",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=7957661~p=2~eid=0000018a-1184-c4d3-1289-eb0b003e0241~srvts=1692511028435~80439",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "9.5 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=376345",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 35,
+              "minDeliveryTime": 35,
+              "maxDeliveryTime": 35,
+              "lastMileTravel": 0,
+              "lastMileDistance": 9.5,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "208550",
+            "name": "Mandara Grand",
+            "uuid": "0d4b36b2-6a55-42de-81a2-2890f414f964",
+            "city": "1",
+            "area": "Rajarajeshwari Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "lgvn5myh1f6s8vfong6f",
+            "cuisines": [
+              "North Indian",
+              "South Indian"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 30000,
+            "costForTwoString": "₹300 FOR TWO",
+            "deliveryTime": 18,
+            "minDeliveryTime": 18,
+            "maxDeliveryTime": 18,
+            "slaString": "18 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "mandara-grand-rajarajeshwari-nagar-rajarajeshwari-nagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "BEML Layout 3rd Stage",
+            "parentId": 131505,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=7957032~p=3~eid=0000018a-1184-c4d3-1289-eb0c003e0358~srvts=1692511028435~80439",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "3 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=208550",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 18,
+              "minDeliveryTime": 18,
+              "maxDeliveryTime": 18,
+              "lastMileTravel": 0,
+              "lastMileDistance": 3,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.2",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "389656",
+            "name": "Uttara Karnataka Jolada Rotti Angadi",
+            "uuid": "5f3ba25a-1573-4aa1-bced-7d7d36ee7255",
+            "city": "1",
+            "area": "Banashankari",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "hx7ebnrl5j9tu0zowurm",
+            "cuisines": [
+              "Snacks",
+              "Sweets",
+              "South Indian"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 10000,
+            "costForTwoString": "₹100 FOR TWO",
+            "deliveryTime": 39,
+            "minDeliveryTime": 39,
+            "maxDeliveryTime": 39,
+            "slaString": "39 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "uttara-karnataka-jolada-rotti-angadi-banashankari-banashankari",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Kathriguppe",
+            "parentId": 258633,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 10000,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 10000,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "10000",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=7728639~p=4~eid=0000018a-1184-c4d3-1289-eb0d003e0407~srvts=1692511028435~80439",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "9.3 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=389656",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 39,
+              "minDeliveryTime": 39,
+              "maxDeliveryTime": 39,
+              "lastMileTravel": 0,
+              "lastMileDistance": 9.3,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.0",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "33004",
+            "name": "Nammane Upachar",
+            "uuid": "60380070-95ec-4d86-a107-ba6d46b71be4",
+            "city": "1",
+            "area": "Ngarabhavi",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "u9wztddwjfxom9czu9rd",
+            "cuisines": [
+              "South Indian",
+              "North Indian",
+              "Chinese",
+              "Beverages"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 30000,
+            "costForTwoString": "₹300 FOR TWO",
+            "deliveryTime": 35,
+            "minDeliveryTime": 35,
+            "maxDeliveryTime": 35,
+            "slaString": "35 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "nammame-upachar-nagarbhavi-malleshwaram",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "NGEF Layout",
+            "parentId": 21567,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 7000,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 7000,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "7000",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=7944063~p=5~eid=0000018a-1184-c4d3-1289-eb0e003e0500~srvts=1692511028435~80439",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "8 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=33004",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 35,
+              "minDeliveryTime": 35,
+              "maxDeliveryTime": 35,
+              "lastMileTravel": 0,
+              "lastMileDistance": 8,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.2",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "118290",
+            "name": "Paakashala",
+            "uuid": "6ca3468e-dfa3-47e5-ba64-0da2b599a11f",
+            "city": "1",
+            "area": "Vijay Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "zrtlbskupllfpod82fom",
+            "cuisines": [
+              "Chinese",
+              "South Indian",
+              "North Indian",
+              "Fast Food",
+              "Beverages"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 50000,
+            "costForTwoString": "₹500 FOR TWO",
+            "deliveryTime": 34,
+            "minDeliveryTime": 34,
+            "maxDeliveryTime": 34,
+            "slaString": "34 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "paakashala-vijayanagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Chandra Layout Main Road",
+            "parentId": 6959,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 8500,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 8500,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "8500",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "8.7 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=118290",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 34,
+              "minDeliveryTime": 34,
+              "maxDeliveryTime": 34,
+              "lastMileTravel": 0,
+              "lastMileDistance": 8.7,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "378073",
+            "name": "Kaapi Katte",
+            "uuid": "f56196c4-ff8f-4510-b5e9-42cdf89475ce",
+            "city": "1",
+            "area": "Rajarajeshwari Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "e81b65579ca03a5afc1ee91df588fd5a",
+            "cuisines": [
+              "South Indian"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 10000,
+            "costForTwoString": "₹100 FOR TWO",
+            "deliveryTime": 25,
+            "minDeliveryTime": 25,
+            "maxDeliveryTime": 25,
+            "slaString": "25 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "kaapi-katte-rajarajeshwari-nagar-rajarajeshwari-nagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "BEML layout",
+            "parentId": 113011,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "4.1 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=378073",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 25,
+              "minDeliveryTime": 25,
+              "maxDeliveryTime": 25,
+              "lastMileTravel": 0,
+              "lastMileDistance": 4.1,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.4",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "69708",
+            "name": "Royal Indraprastha - RR Nagar",
+            "uuid": "a3dc1dec-6955-49bb-bb00-20830444a2b1",
+            "city": "1",
+            "area": "Rajarajeshwari Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "xjinzk9dvbjsu32npsan",
+            "cuisines": [
+              "Chinese",
+              "South Indian",
+              "North Indian",
+              "Desserts"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 22,
+            "minDeliveryTime": 22,
+            "maxDeliveryTime": 22,
+            "slaString": "22 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "royal-indraprastha-rr-nagar-rajarajeshwari-nagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "BEML Layout 4th Stage",
+            "parentId": 18568,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "4.3 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=69708",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 22,
+              "minDeliveryTime": 22,
+              "maxDeliveryTime": 22,
+              "lastMileTravel": 0,
+              "lastMileDistance": 4.3,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "38007",
+            "name": "Rajathadri Palace",
+            "uuid": "f11808f3-d331-4091-873e-d7f70a5fba71",
+            "city": "1",
+            "area": "Uttarahalli",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "yh2tpbw6urm8koah4w5e",
+            "cuisines": [
+              "Indian",
+              "Chinese",
+              "Continental",
+              "Desserts",
+              "Jain",
+              "North Indian",
+              "South Indian"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 50000,
+            "costForTwoString": "₹500 FOR TWO",
+            "deliveryTime": 33,
+            "minDeliveryTime": 33,
+            "maxDeliveryTime": 33,
+            "slaString": "33 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "rajathadri-palace-uttarahalli-kumaraswamy-layout-uttarahalli",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Kengeri main road",
+            "parentId": 165418,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 7500,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 7500,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "7500",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "7 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=38007",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 33,
+              "minDeliveryTime": 33,
+              "maxDeliveryTime": 33,
+              "lastMileTravel": 0,
+              "lastMileDistance": 7,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.4",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "111200",
+            "name": "Brahmi Aahar",
+            "uuid": "937fc501-286d-4e0d-91aa-83791fe97c2d",
+            "city": "1",
+            "area": "Rajarajeshwari Nagar",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "ur6nc823siih1kwq5o8i",
+            "cuisines": [
+              "Chinese",
+              "South Indian",
+              "Desserts",
+              "Fast Food"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 15000,
+            "costForTwoString": "₹150 FOR TWO",
+            "deliveryTime": 21,
+            "minDeliveryTime": 21,
+            "maxDeliveryTime": 21,
+            "slaString": "21 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "brahmi-aahar-rajarajeshwari-nagar-rajarajeshwari-nagar",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "BEML Layout 3rd Stage",
+            "parentId": 20103,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "4.1 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=111200",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 21,
+              "minDeliveryTime": 21,
+              "maxDeliveryTime": 21,
+              "lastMileTravel": 0,
+              "lastMileDistance": 4.1,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.2",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "396895",
+            "name": "Anagha Grand Veg",
+            "uuid": "5e889169-2c34-47f1-9a85-dcba07d778cc",
+            "city": "1",
+            "area": "Kumaraswamy Layout",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "szo7vpcvpcvfaojlfe9g",
+            "cuisines": [
+              "Indian",
+              "Oriental",
+              "Fast Food",
+              "Tandoor"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 32,
+            "minDeliveryTime": 32,
+            "maxDeliveryTime": 32,
+            "slaString": "32 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "anagha-grand-veg-kumaraswamy-layout-&-uttarahalli-kumaraswamy-layout-&-uttarahalli",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Housing Society Layout",
+            "parentId": 240889,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 6200,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 6200,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "6200",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "6.7 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=396895",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 32,
+              "minDeliveryTime": 32,
+              "maxDeliveryTime": 32,
+              "lastMileTravel": 0,
+              "lastMileDistance": 6.7,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.4",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "220173",
+            "name": "Sri Krishna Aramane",
+            "uuid": "8323395c-ff95-4007-bd32-d93595c15738",
+            "city": "1",
+            "area": "Nagarbhavi",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "whmv9kglx3rv8a4lb5ya",
+            "cuisines": [
+              "North Indian",
+              "South Indian"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 29,
+            "minDeliveryTime": 29,
+            "maxDeliveryTime": 29,
+            "slaString": "29 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "sri-krishna-aramane-kengeri(do-not-use)-kengeri(do-not-use)",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Annapurneshwari Layout",
+            "parentId": 20145,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 5400,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 5400,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "5400",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "5.9 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=220173",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 29,
+              "minDeliveryTime": 29,
+              "maxDeliveryTime": 29,
+              "lastMileTravel": 0,
+              "lastMileDistance": 5.9,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.2",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "372162",
+            "name": "Udupi Upahar- Raghuvanahalli",
+            "uuid": "ad64e52f-4e7a-4fe1-a797-ac3ab3ced4bb",
+            "city": "1",
+            "area": "Kanakapura Road",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "qzbobgrcq32y5qnnkvhj",
+            "cuisines": [
+              "South Indian",
+              "North Indian",
+              "Chinese"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 22000,
+            "costForTwoString": "₹220 FOR TWO",
+            "deliveryTime": 35,
+            "minDeliveryTime": 35,
+            "maxDeliveryTime": 35,
+            "slaString": "35 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "udupi-upahar-kanakapura-road-kanakapura-road",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Raghuvanahalli Village",
+            "parentId": 356472,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "aggregatedDiscountInfoV2": {
+              "header": "",
+              "shortDescriptionList": [
+                
+              ],
+              "descriptionList": [
+                
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 8500,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 8500,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "8500",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "8.8 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=372162",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 35,
+              "minDeliveryTime": 35,
+              "maxDeliveryTime": 35,
+              "lastMileTravel": 0,
+              "lastMileDistance": 8.8,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      },
+      {
+        "cardType": "restaurant",
+        "layoutAlignmentType": "VERTICAL",
+        "data": {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "151434",
+            "name": "New Udupi Kitchen",
+            "uuid": "1ebd14a2-8459-4264-880b-be678f70262c",
+            "city": "1",
+            "area": "Kengeri",
+            "totalRatingsString": "",
+            "cloudinaryImageId": "wfyidqtjop4uv0bd2uhi",
+            "cuisines": [
+              "Indian",
+              "Chinese"
+            ],
+            "tags": [
+              
+            ],
+            "costForTwo": 25000,
+            "costForTwoString": "₹250 FOR TWO",
+            "deliveryTime": 24,
+            "minDeliveryTime": 24,
+            "maxDeliveryTime": 24,
+            "slaString": "24 MINS",
+            "lastMileTravel": 0,
+            "slugs": {
+              "restaurant": "new-udupi-kitchen-kengerido-not-use",
+              "city": "Bangalore"
+            },
+            "cityState": "1",
+            "address": "",
+            "locality": "Nagdevanahalli",
+            "parentId": 21312,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [
+              
+            ],
+            "chain": [
+              
+            ],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "BASE_DISTANCE",
+                  "fee": 3900,
+                  "message": ""
+                },
+                {
+                  "name": "BASE_TIME",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "ANCILLARY_SURGE_FEE",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3900,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3900",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [
+                
+              ],
+              "textBased": [
+                
+              ],
+              "textExtendedBadges": [
+                
+              ]
+            },
+            "lastMileTravelString": "4.3 kms",
+            "hasSurge": false,
+            "cta": {
+              "link": "swiggy://menu?restaurant_id=151434",
+              "type": "DEEPLINK",
+              "text": "RESTAURANT_MENU"
+            },
+            "sla": {
+              "restaurantId": "",
+              "deliveryTime": 24,
+              "minDeliveryTime": 24,
+              "maxDeliveryTime": 24,
+              "lastMileTravel": 0,
+              "lastMileDistance": 4.3,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.3",
+            "totalRatings": 0,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        "parentWidget": false
+      }
+    ],
+    "nextPageFetch": 0
+  },
+  "tid": "60c8edb6-7a02-4865-babf-35404cf9b156",
+  "sid": "8uyc16e7-06ec-444f-90df-cf5bfe3364f0",
+  "deviceId": "86abfaa4-dc2f-9e9c-0372-4afe586f2781",
+  "csrfToken": "qiXg0D6JT6HI-1_8KRWPx5cJD6xh7Zdna2KkUOnM"
+}

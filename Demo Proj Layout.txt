@@ -1,0 +1,20 @@
+Food Web App -
+
+Main Component - 
+AppLayout Componenet
+
+Sub Component -
+Header Component
+- Logo
+- Nav Items(Home, About, Cart)
+
+Body Component
+- Search Bar
+- Card Container 
+  - Restrocard Component(Images, Cusine, Rating)
+
+Footer Component
+- Links
+- Address
+- Copyright
+- Contact
